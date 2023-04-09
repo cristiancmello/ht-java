@@ -1,29 +1,20 @@
-# Maven Quickstart with JUnit5 and AssertJ
+# How-To Java
 
-Make your **unit tests** and **integration tests** faster.
-Support to build **executable JAR** and **JaCoCo Code Coverage**.
+## Leia
 
-## Dependencies
+### Exception Handling
 
-- **JUnit 5** (`junit-jupiter`) v5.9.2
-- **AssertJ** (`assertj-core`) v3.24.2
-
-## Plugins
-
-- **Maven Compiler** (`maven-compiler-plugin`) v3.8.1
-- **Maven Failsafe** (`maven-failsafe-plugin`) v3.0.0 : add Integration Tests support
-- **Maven JAR plugin** (`maven-jar-plugin`) v3.3.0 : generate executable JAR
-- **Maven JaCoCo plugin** (`jacoco-maven-plugin`) v0.8.9 : generate Code Coverage
+- [Como tratar exceptions?](java-exception-handling.md)
 
 ## How to Build?
 
-* Execute unit tests before package.
+- Execute unit tests before package.
 
 ```sh
 mvn clean package
 ```
 
-* Execute without unit tests.
+- Execute without unit tests.
 
 ```sh
 mvn clean package -DskipTests
@@ -31,7 +22,7 @@ mvn clean package -DskipTests
 
 ## How to Run?
 
-* Example
+- Example
 
 ```sh
 java -jar target/maven-quickstart-junit5-0.1.0-1.jar
@@ -40,7 +31,7 @@ Hello world!
 
 ## How to Test?
 
-```sh 
+```sh
 mvn clean verify
 ```
 
